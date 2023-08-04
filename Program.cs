@@ -25,9 +25,8 @@ internal class Program
         float ponto = 60 - a.NotaFinal();
 
         Console.WriteLine();
-        Console.Write("Nota final: " + notafinal.ToString("f2"), CultureInfo.InvariantCulture);
-
-        Console.WriteLine();
+        Console.WriteLine("Nota final: " + notafinal.ToString("f2"), CultureInfo.InvariantCulture);
+               
         if (notafinal > 60)
         {
             Console.WriteLine("Parabéns! Você está aprovado.");
